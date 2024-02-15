@@ -19,3 +19,7 @@ INSERT INTO TBLIdentityPerson VALUES ('Rakesh')
 -- DELETING FEW VALUES
 DELETE TBLIdentityPerson WHERE PersonID = 2
 DELETE TBLIdentityPerson WHERE PersonID = 6
+
+-- SETTING ON IDENTITY_INSERT 
+-- This is Because we Deleted PersonID 2 and we want to add an replacement
+SET IDENTITY_INSERT TBLIdentityPerson ON
