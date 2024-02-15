@@ -26,3 +26,8 @@ SET IDENTITY_INSERT TBLIdentityPerson ON
 
 -- Now I can add PersonId 2
 INSERT INTO TBLIdentityPerson (PersonID, PersonName)VALUES (2, 'Roshan')
+
+-- Now Let's Switch OFF Identity INSERT as everytime we add a new data inside our table
+-- We Have to Insert (PersonID, PersonName) Before VALUES
+SET IDENTITY_INSERT TBLIdentityPerson OFF
+
