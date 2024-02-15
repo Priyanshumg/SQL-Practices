@@ -21,3 +21,4 @@ DELETE FROM TBLGender WHERE ID = 2
 
 --Changing Rule to Set NULL
 DELETE FROM TBLGender WHERE ID = 1
+-- Removed ID-1(Male)
