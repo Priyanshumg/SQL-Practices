@@ -22,6 +22,9 @@ DELETE FROM TBLGender WHERE ID = 2
 --Changing Rule to Set NULL
 DELETE FROM TBLGender WHERE ID = 1
 -- Removed ID-1(Male)
+-- Table Update: All Elements with Value 1 are set as NULL
 
 -- Setting Rule To CasCade
 DELETE FROM TBLGender WHERE ID = 3
+-- Removed ID 3
+-- Table Update: All Values which are having value 3 are been Cascaded(removed)
