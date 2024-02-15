@@ -23,3 +23,6 @@ DELETE TBLIdentityPerson WHERE PersonID = 6
 -- SETTING ON IDENTITY_INSERT 
 -- This is Because we Deleted PersonID 2 and we want to add an replacement
 SET IDENTITY_INSERT TBLIdentityPerson ON
+
+-- Now I can add PersonId 2
+INSERT INTO TBLIdentityPerson (PersonID, PersonName)VALUES (2, 'Roshan')
