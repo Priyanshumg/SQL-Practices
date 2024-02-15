@@ -31,3 +31,10 @@ INSERT INTO TBLIdentityPerson (PersonID, PersonName)VALUES (2, 'Roshan')
 -- We Have to Insert (PersonID, PersonName) Before VALUES
 SET IDENTITY_INSERT TBLIdentityPerson OFF
 
+--> RESETTING VALUES WARNING: BEFORE WE EXECUTE THIS LOOK AFTER THIS
+DBCC CHECKIDENT(TBLIdentityPerson, RESEED, 0) 
+--> Remember Identity Increments with 1
+--> Now when you add value it starts with 1
+
+-- We need to remove everything form the table to use above index
+DELETE FROM TBLIdentityPerson -- Now we can Execute Above code
