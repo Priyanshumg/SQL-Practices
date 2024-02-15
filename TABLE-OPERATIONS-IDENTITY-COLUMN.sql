@@ -15,3 +15,7 @@ INSERT INTO TBLIdentityPerson VALUES ('Priyanshu') -- Duplicate Value
 INSERT INTO TBLIdentityPerson VALUES ('Himanshu')
 INSERT INTO TBLIdentityPerson VALUES ('Sunil')
 INSERT INTO TBLIdentityPerson VALUES ('Rakesh')
+
+-- DELETING FEW VALUES
+DELETE TBLIdentityPerson WHERE PersonID = 2
+DELETE TBLIdentityPerson WHERE PersonID = 6
