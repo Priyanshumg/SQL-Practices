@@ -8,3 +8,10 @@ PersonName nvarchar(50)
 
 -- Display TABLE
 SELECT * FROM TBLIdentityPerson
+
+-- INSERTING VALUES
+INSERT INTO TBLIdentityPerson VALUES ('Priyanshu')
+INSERT INTO TBLIdentityPerson VALUES ('Priyanshu') -- Duplicate Value
+INSERT INTO TBLIdentityPerson VALUES ('Himanshu')
+INSERT INTO TBLIdentityPerson VALUES ('Sunil')
+INSERT INTO TBLIdentityPerson VALUES ('Rakesh')
