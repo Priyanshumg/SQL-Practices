@@ -16,7 +16,7 @@ INSERT INTO TBLIdentityPerson VALUES ('Himanshu')
 INSERT INTO TBLIdentityPerson VALUES ('Sunil')
 INSERT INTO TBLIdentityPerson VALUES ('Rakesh')
 
--- DELETING FEW VALUES
+-- DELETING FEW 
 DELETE TBLIdentityPerson WHERE PersonID = 2
 DELETE TBLIdentityPerson WHERE PersonID = 6
 
@@ -38,3 +38,9 @@ DBCC CHECKIDENT(TBLIdentityPerson, RESEED, 0)
 
 -- We need to remove everything form the table to use above index
 DELETE FROM TBLIdentityPerson -- Now we can Execute Above code
+
+-- Now WE ADD VALUES
+INSERT INTO TBLIdentityPerson VALUES ('Priyanshu') 
+INSERT INTO TBLIdentityPerson VALUES ('Himanshu')
+INSERT INTO TBLIdentityPerson VALUES ('Sunil')
+INSERT INTO TBLIdentityPerson VALUES ('Rakesh')
