@@ -6,3 +6,5 @@ CREATE TABLE TBLIdentityPerson
 PersonName nvarchar(50)
 )
 
+-- Display TABLE
+SELECT * FROM TBLIdentityPerson
