@@ -1,2 +1,3 @@
 -- Creates a new DataBase
 CREATE DATABASE MyTraining
+CREATE DATABASE DELETEABLEDB
