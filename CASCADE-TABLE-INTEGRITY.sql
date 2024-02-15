@@ -15,3 +15,6 @@ DELETE FROM TBLGender WHERE ID = 2
 
 -- We Changed Property of TBLPerson Key When an Element is Deleted, It will SET DEFAULT
 -- Now Lets Run The same OLD Command
+DELETE FROM TBLGender WHERE ID = 2
+-- DELETED 2nd Row Successfully
+
