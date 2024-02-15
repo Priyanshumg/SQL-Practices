@@ -17,4 +17,7 @@ DELETE FROM TBLGender WHERE ID = 2
 -- Now Lets Run The same OLD Command
 DELETE FROM TBLGender WHERE ID = 2
 -- DELETED 2nd Row Successfully
+-- Table Update: Displays Females as Default 3
 
+--Changing Rule to Set NULL
+DELETE FROM TBLGender WHERE ID = 1
