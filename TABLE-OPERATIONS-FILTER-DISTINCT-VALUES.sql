@@ -14,6 +14,23 @@ CREATE TABLE Customers
 	PostalCode int Not Null,
 	Country nvarchar(50) Not Null,
 )
+SELECT * FROM Customers 
+
+-- Changed Data Type of the PostalCode
+ALTER TABLE Customers
+ALTER COLUMN PostalCode nvarchar(50)
+
+-- Selecting Distict Values
+SELECT DISTINCT Country FROM Customers 
+
+-- Selecting Countries from customers
+SELECT Country FROM Customers
+
+-- Filtering Out total Number of Countries
+SELECT COUNT(Country) FROM Customers
+
+-- Filtering Out Distinct Number of Countries
+SELECT COUNT(DISTINCT COUNTRY) FROM Customers
 
 -- Data Entry Starts from Here -- 
 INSERT INTO Customers Values
